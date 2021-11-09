@@ -6,7 +6,7 @@ const INMUTABLE_CACHE = 'inmutable-v1';
 
 //Cuarta variable: Corazon de la app y se guardara el cache estaico
 const APP_SHELL = [
-    '/',
+    //'/',
     'index.html',
     '/css/style.css',
     '/img/favicon.ico',
