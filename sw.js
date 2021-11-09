@@ -8,15 +8,15 @@ const INMUTABLE_CACHE = 'inmutable-v1';
 const APP_SHELL = [
     //'/',
     'index.html',
-    '/css/style.css',
-    '/img/favicon.ico',
-    '/img/avatars/goku.jpg',
-    '/img/avatars/vegeta.jpg',
-    '/img/avatars/broly.jpg',
-    '/img/avatars/gohan.jpg',
-    '/img/avatars/vegetto.jpg',
-    '/img/fondo1.jpg',
-    '/js/app.js'
+    'css/style.css',
+    'img/favicon.ico',
+    'img/avatars/goku.jpg',
+    'img/avatars/vegeta.jpg',
+    'img/avatars/broly.jpg',
+    'img/avatars/gohan.jpg',
+    'img/avatars/vegetto.jpg',
+    'img/fondo1.jpg',
+    'js/app.js'
 ];
 const APP_SHELL_INMUTABLE = [
     'https://fonts.googleapis.com/css?family=Quicksand:300,400',
