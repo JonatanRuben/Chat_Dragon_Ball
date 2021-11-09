@@ -7,7 +7,7 @@ if(navigator.serviceWorker){
    
     //En caso de que ejecutemos el proyecto en un ambiente de prueba
     if(url.includes('localhost')){
-        SWLocation = '/sw.js';
+        navigator.serviceWorker.register('/sw.js');
     }
     //En caso de ejecutar el proyecto en github
     else{
