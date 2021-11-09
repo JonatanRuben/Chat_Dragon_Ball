@@ -1,7 +1,22 @@
 //SW
+//Variables para obtener la ruta actual y evitar conflictos con github
+var url = window.location.href;
+var SWLocation = '/Chat_Dragon_Ball/sw.js';
+
 if(navigator.serviceWorker){
-navigator.serviceWorker.register('/sw.js');
+   
+    //En caso de que ejecutemos el proyecto en un ambiente de prueba
+    if(url.includes('localhost')){
+        SWLocation = '/sw.js'
+    }
+    //En caso de ejecutar el proyecto en github
+    else{
+        navigator.serviceWorker.register(SWLocation);
+
+    }
+
 }
+
 
 // Referencias de jQuery
 
